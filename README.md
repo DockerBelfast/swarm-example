@@ -6,7 +6,7 @@ Getting started
 
 Go to [Play with Docker](https://www.play-with-docker.com). You need 2 Instances. 
 
-* Step 1 - Init your swarm:
+Init your swarm:
 ```
 docker swarm init --advertise-addr $(hostname -i)
 ```
